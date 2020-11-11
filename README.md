@@ -2,7 +2,7 @@
 Baixe o codigo via a url do repositorio, para o sistema rodar é necessário
 * NodeJS (incluido o npm)
 * Angular-cli | -> npm install -g @angular/cli
-*json-server | -> sudo npm install -g json-server
+* json-server | -> sudo npm install -g json-server
 
 ## 2° Passo -
 Ao terminar de baixar os arquivos do repositório rode em um terminal dentro da pasta do projeto o seguinte comando:
