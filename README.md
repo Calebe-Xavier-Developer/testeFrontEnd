@@ -1,27 +1,19 @@
-# TesteFrontEnd
+# 1° Passo -
+Baixe o codigo via a url do repositorio, para o sistema rodar é necessário
+* NodeJS (incluido o npm)
+* Angular-cli | -> npm install -g @angular/cli
+*json-server | -> sudo npm install -g json-server
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+## 2° Passo -
+Ao terminar de baixar os arquivos do repositório rode em um terminal dentro da pasta do projeto o seguinte comando:
+npm install (com isso deve evitar os problemas de depencia);
 
-## Development server
+## 3° Passo -
+Como tive problemas com a manipulação dos dados, optei por criar uma api rest fake, inseri mais um campo (ID), para facilitar nas requisiçes o que diminuiu bastante linhas de cdigo, em contramão por ter um arquivo json com os dados sendo inseridos e excluidos acabei não inserindo o localStorage, que nesse caso nem seria usado, para rodar JSON Server, rode em outro terminal dentro da pasta do projeto o seguinte comando:
+json-server --watch src/assets/data/db.json
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## 4° Passo -
+Rode o servidor de desenvolvimento em um terminal dentro da pasta do projeto com o comando:
+ng serve --open (Isso irá abrir a aplicação direto no navegador)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Pronto o Ambiente já pode ser testado!!!!!!!!!!!
