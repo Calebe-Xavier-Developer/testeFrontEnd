@@ -1,0 +1,27 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "Nome": "João Libero",
+      "Email": "joao@mail.com",
+      "DataNascimento": "01-01-2000",
+      "Sexo": "Masculino"
+      
+    },
+    {
+      "id": 2,
+      "Nome": "Ana",
+      "Email": "ana@mail.com",
+      "DataNascimento": "01-01-1990",
+      "Sexo": "Feminino"
+    },
+    {
+      "id": 3,
+      "Nome": "Mário",
+      "Email": "mario@mail.com",
+      "DataNascimento": "01-01-1995",
+      "Sexo": "Masculino"
+    }
+    
+  ]
+}

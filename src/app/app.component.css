@@ -1,0 +1,41 @@
+.body{
+background-color: rgba(13, 121, 243, 0.952) !important;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.add-aluno {
+    margin-bottom: 30px;
+}
+
+.list-aluno {
+    margin-bottom: 50px;
+}
+
+.btn-add-aluno {
+    margin-right: 10px;
+}
+
+.table {
+    width: 100%;
+  }
+  
+.breadcrumb-item{
+    color:  white;
+    font-size: 15rem;
+}
+.breadcrumb{
+    background-color: rgb(49, 0, 82);
+}
+
+.btn-warning{
+    background-color:  #2196f3 !important;
+    color: white !important;
+    border-color: black !important;
+}
+
+.btn-warning:hover{
+    background-color:  #0c7cd5 !important;
+}
