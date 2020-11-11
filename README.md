@@ -14,6 +14,6 @@ Como tive problemas com a manipulação dos dados, optei por criar uma api rest 
 
 ## 4° Passo -
 Rode o servidor de desenvolvimento em um terminal dentro da pasta do projeto com o comando:
-* ng serve --open (Isso irá abrir a aplicação direto no navegador)
+* npm start (Após o terminal irá dizer que a aplicação já pode ser acessada via o link http://localhost:4200/, pressione o Ctrl+click e você será redirecionado até a aplicação)
 
 ## Pronto o Ambiente já pode ser testado!!!!!!!!!!!
